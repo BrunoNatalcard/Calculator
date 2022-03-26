@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(209, 209, 209);
+}
+
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgb(78, 66, 88);
+    color: white;
+}
+
+#display {
+    background-color: #202124;
+    color: white;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 40px;
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+    border-left: 1px solid #999;
+    border-bottom: 2px solid #999;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.buttons{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #202124;
+    
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+
+}
+
+.button{
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#especialc{
+    background-color: #832400;
+
+}
+
+#especialc:hover{
+    background-color: #cd3800;
+    transition: 0.3s ease;
+}
+
+#especialc:active{
+    background-color: #a42d00;
+}
+
+#equal{
+    background-color: #6a0001;
+    color: white;
+    border-bottom-right-radius: 25px;
+}
+
+#equal:hover{
+    background-color: #960000;
+    color: white;
+    border-bottom-right-radius: 25px;
+    transition: 0.3s ease-in-out;
+}
+
+#equal:active{
+    background-color: #780000;
+}
+
+#borderleft{
+    border-bottom-left-radius: 25px;
+}
+
+.button:hover{
+    background-color: #5f6368;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.button:active{
+    background-color: #4c4f53;
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.2s ease;
+    color: #f8f8ff;
+}
+
+#operation{
+    background-color: #022031;
+}
+
+#operation:hover{
+    background-color: #03324c;
+    transition: 0.3s ease;
+}
+
+#operation:active{
+    background-color: #003555;
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
