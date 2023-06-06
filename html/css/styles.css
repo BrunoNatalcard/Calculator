@@ -49,12 +49,12 @@ body{
 }
 
 #especialc{
-    background-color: #832400;
+    background-color: #008324;
 
 }
 
 #especialc:hover{
-    background-color: #cd3800;
+    background-color: #00cd38;
     transition: 0.3s ease;
 }
 
